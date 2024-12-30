@@ -552,7 +552,7 @@ td, th {
 }
 
 .section-full {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 .section-half {
@@ -1127,7 +1127,7 @@ td, th {
 }
 
 .product-area-title {
-  padding-bottom: 70px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 991px) {

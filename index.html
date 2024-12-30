@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<html lang="eng" class="no-js">
 <head>
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,7 +14,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Agency</title>
+	<title>Datarc</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
 		<!--
@@ -41,6 +41,7 @@
 							<nav class="d-flex align-items-center">
 								<ul class="main-menu">
 									<li><a href="#top">Home</a></li>
+									<li><a href="#about">About Us</a></li>
 									<li><a href="#services">Services</a></li>
 									<li><a href="#protfolio">Portfolio</a></li>
 									<li><a href="#team">Team</a></li>
@@ -49,17 +50,9 @@
 								</ul>
 								<a href="#" class="mobile-btn"><span class="lnr lnr-menu"></span></a>
 							</nav>
-							<div class="search relative">
-								<span class="lnr lnr-magnifier"></span>
-								<form action="#" class="search-field">
-									<input type="text" placeholder="Search here" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search here'">
-									<button class="search-submit"><span class="lnr lnr-magnifier"></span></button>
-								</form>
-							</div>
 							<div class="header-social d-flex align-items-center">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
 								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
 							</div>
 						</div>
 					</div>
@@ -74,9 +67,11 @@
 				<div class="row fullscreen justify-content-center align-items-center">
 					<div class="col-lg-8">
 						<div class="banner-content text-center">
-							<p class="text-uppercase text-white">We work hard, we result perfect</p>
-							<h1 class="text-uppercase text-white">Crafting Digital Agency Experiences</h1>
-							<a href="#" class="primary-btn banner-btn">Explore Us</a>
+							<h1 class="text-white">Precision Data Engineering</h1>
+							<p class="text-uppercase text-white">Precision | Performance | Reliability</p>
+							<br>
+							<p class="text-white">Transform your business with cutting-edge data engineering solutions designed to streamline, analyze, and maximize the value of your data.</p>
+							<a href="#about" class="primary-btn banner-btn">Contact Us</a>
 						</div>
 					</div>
 				</div>
@@ -84,13 +79,13 @@
 		</section>
 		<!-- End Banner Area -->
 		<!-- Start About Area -->
-		<section class="section-full gray-bg">
+		<section id="about"  class="section-full gray-bg">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-10">
 						<div class="section-title text-center">
-							<p class="text-uppercase">About Our Digital Agency</p>
-							<h3>Plantronics with its GN Netcom <b>wireless headset</b> creates the next generation of wireless headset and other products such as wireless amplifiers, and <b>wireless headset</b> telephone.</h3>
+							<p class="text-uppercase">About Us</p>
+							<h3>We are a passionate group of data engineers and analysts dedicated to solving complex data challenges. With decades of experience and a commitment to excellence, we ensure your data works as hard as you do.</h3>
 						</div>
 					</div>
 				</div>
@@ -99,9 +94,8 @@
 						<figure class="signle-service">
 							<img src="img/s1.jpg" class="img-fluid" alt="">
 							<figcaption class="text-center">
-								<h5 class="text-uppercase">Addiction Whit Gambling</h5>
+								<h5 class="text-uppercase">Precision</h5>
 								<p>It is a good idea to think of your PC as an office. It stores files, programs, pictures. This can be compared to an actual office’s files</p>
-								<a href="#" class="primary-btn d-inline-flex align-items-center">Explore<span class="lnr lnr-arrow-right"></span></a>
 							</figcaption>
 						</figure>
 					</div>
@@ -109,9 +103,8 @@
 						<figure class="signle-service">
 							<img src="img/s2.jpg" class="img-fluid" alt="">
 							<figcaption class="text-center">
-								<h5 class="text-uppercase">Headset No Longer Wired</h5>
+								<h5 class="text-uppercase">Performance</h5>
 								<p>If you are in the market for a computer, there are a number of factors to consider. Will it be used for your home, your office or perhaps </p>
-								<a href="#" class="primary-btn d-inline-flex align-items-center">Explore<span class="lnr lnr-arrow-right"></span></a>
 							</figcaption>
 						</figure>
 					</div>
@@ -119,9 +112,8 @@
 						<figure class="signle-service">
 							<img src="img/s3.jpg" class="img-fluid" alt="">
 							<figcaption class="text-center">
-								<h5 class="text-uppercase">Life Advice Looking At Window</h5>
+								<h5 class="text-uppercase">Reliability</h5>
 								<p>Having a baby can be a nerve wrackingexp erience for new parents – not the nine months of pregnancy, I’m talking</p>
-								<a href="#" class="primary-btn d-inline-flex align-items-center">Explore<span class="lnr lnr-arrow-right"></span></a>
 							</figcaption>
 						</figure>
 					</div>
@@ -695,13 +687,19 @@
 					<div class="col-lg-6 mt-30">
 						<form id="myForm" action="mail.php" method="post" class="contact-form">
 							<div class="single-input color-2 mb-10">
-								<input type="text" name="fname" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'" required>
+								<label>
+									<input type="text" name="fname" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'" required>
+								</label>
 							</div>
 							<div class="single-input color-2 mb-10">
-								<input type="email" name="email" placeholder="Email Address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" required>
+								<label>
+									<input type="email" name="email" placeholder="Email Address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" required>
+								</label>
 							</div>
 							<div class="single-input color-2 mb-10">
-								<input type="text" name="subject" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'" required>
+								<label>
+									<input type="text" name="subject" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'" required>
+								</label>
 							</div>
 
 							<div class="single-input color-2 mb-10">
@@ -788,19 +786,17 @@
 					</div>
 				</div>
 				<div class="footer-bottom d-flex justify-content-between align-items-center">
-					<p class="footer-text m-0">Copyright &copy; 2017  |  All rights reserved to <a href="#">Datarc inc.</a> Designed by <a href="https://colorlib.com/wp">Colorlib</a>.</p>
+					<p class="footer-text m-0">Copyright &copy; 2025  |  All rights reserved to <a href="#">Datarc Engineering.</a></p>
 					<div class="footer-social d-flex align-items-center">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-dribbble"></i></a>
-						<a href="#"><i class="fa fa-behance"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
 					</div>
 				</div>
 			</div>
 		</footer>
 
 		<script src="js/vendor/jquery-2.2.4.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="js/vendor/popper.min.js"></script>
 		<script src="js/vendor/bootstrap.min.js"></script>
 		<script src="js/jquery.ajaxchimp.min.js"></script>
 		<script src="js/jquery.sticky.js"></script>
